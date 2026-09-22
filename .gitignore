@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local system and editor files
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Downloaded and generated datasets: review before publishing
+/data/
+
+# Notebook execution, backups, and local scratch
+.local-backup/
+.jupyter/
+.cache/
+work/
+*.log
+*.tmp
+*.bak
